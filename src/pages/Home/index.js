@@ -16,8 +16,8 @@ export default function Home() {
     { key: '2', tipo: 'Despesa', valor: 200 },
     { key: '3', tipo: 'Receita', valor: 40 },
     { key: '4', tipo: 'Receita', valor: 89.62},
-    { key: '4', tipo: 'Despesa', valor: 500},
-    { key: '4', tipo: 'Despesa', valor: 310}
+    { key: '5', tipo: 'Despesa', valor: 500},
+    { key: '6', tipo: 'Despesa', valor: 310}
 
   ]);
 
@@ -27,7 +27,7 @@ export default function Home() {
     <Background>
       <Header />
       <Container>
-        <Nome>Vinicius</Nome>
+        <Nome>{user && user.email}</Nome>
         <Saldo>R$123,00</Saldo>
       </Container>
 
