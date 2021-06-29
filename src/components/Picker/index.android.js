@@ -9,6 +9,7 @@ export default function Picker({ onChange, tipo }) {
                 style={{
                     width: '100%'
                 }}
+                
                 selectedValue={tipo}
                 onValueChange={(valor) => onChange(valor)}
             >
